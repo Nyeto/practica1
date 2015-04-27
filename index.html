@@ -1,0 +1,110 @@
+<!DOCTYPE html> 
+<html>
+<head>
+<meta charset="utf-8">
+<title>Aplic. Web de jQuery Mobile</title>
+
+
+
+<!--<link href="jquery-mobile/jquery.mobile.theme-1.0.min.css" rel="stylesheet" type="text/css"/>-->
+<link href="jquery-mobile/themes/vistoso.min.css" rel="stylesheet" type="text/css"/>
+<link href="jquery-mobile/jquery.mobile.structure-1.0.min.css" rel="stylesheet" type="text/css"/>
+<script src="jquery-mobile/jquery-1.6.4.min.js" type="text/javascript"></script>
+<script src="jquery-mobile/jquery.mobile-1.0.min.js" type="text/javascript"></script>
+
+
+
+
+
+
+<style>
+#fondo{
+	background:url(imagenes/logo_colores_cbtis_jpg%5B1%5D.png);
+	opacity:0.5;
+	
+}
+
+</style>
+
+
+
+
+
+
+
+</head> 
+<body> 
+
+<div data-role="page" id="page" data-theme="b">
+	<div data-role="header">
+		<h1>C.B.T.i.s. #86</h1>
+	</div>
+	<div data-role="content">
+    	<ul data-role="collapsible">
+    
+        <li>nombres</li></ul>
+   
+		<ul data-role="listview">
+			<li><a href="#page2">Página dos</a></li>
+            <li><a href="#page3">Página tres</a></li>
+			<li><a href="#page4">Página cuatro</a></li>
+            <li><a href="#page5">Página cinco</a></li>
+		</ul>		
+	</div>
+	<div data-role="footer">
+		<h4>Mtro. David Nieto López</h4>
+	</div>
+</div>
+
+<div data-role="page" id="page2" data-add-back-btn="true">
+	<div data-role="header">
+		<h1>Página dos</h1>
+	</div>
+	<div data-role="content" id="fondo">	
+		<div style="float:left">
+        hola
+        </div>		
+	</div>
+	<div data-role="footer">
+		<h4>Pie de página</h4>
+	</div>
+</div>
+
+<div data-role="page" id="page3" data-add-back-btn="true">
+	<div data-role="header">
+		<h1>Página tres</h1>
+	</div>
+	<div data-role="content" id="fondo">	
+		Contenido		
+	</div>
+	<div data-role="footer">
+		<h4>Pie de página</h4>
+	</div>
+</div>
+
+<div data-role="page" id="page4" data-add-back-btn="true">
+	<div data-role="header">
+		<h1>Página cuatro</h1>
+	</div>
+	<div data-role="content" id="fondo">	
+		Contenido </br>Contenido </br>	Contenido </br>	Contenido </br>	Contenido </br>	Contenido </br>			
+	</div>
+	<div data-role="footer">
+		<h4>David Nieto López</h4>
+	</div>
+</div>
+
+<div data-role="page" id="page5" data-add-back-btn="true">
+	<div data-role="header">
+		<h1>Página cinco</h1>
+	</div>
+	<div data-role="content" id="fondo">	
+		Contenido		
+	</div>
+	<div data-role="footer">
+		<h4>David Nieto López</h4>
+	</div>
+</div>
+
+</body>
+</html>
